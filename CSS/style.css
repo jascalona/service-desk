@@ -5,6 +5,7 @@
 }
 
 .logo{
+    position: fixed;
     display: flex;
     align-items: center;
     background: #fff;
@@ -25,6 +26,7 @@
 }
 
 nav{
+    margin-top: 60px;
     width: 200px;
     height: 100%;
     position: fixed;
