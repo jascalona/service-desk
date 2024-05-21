@@ -24,6 +24,10 @@ body{
     color: blue;
 }
 
+.logo .user{
+    margin-left: 75%;
+}
+
 nav{
     width: 200px;
     height: 100%;
@@ -38,7 +42,6 @@ ul {
 }
 .nav-links{
     margin-top: 10%;
-    margin-left: 20px;
 }
 
 .nav-links li a  {
