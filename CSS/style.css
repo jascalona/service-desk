@@ -55,6 +55,11 @@ ul {
 
 
 .nav-links li a{
-    line-height: 70px;
+    line-height: 60px;
+}
+
+.nav-links li:hover {
+    background: #f3f3f3f3;
+    margin-left: -28px;
 }
 
