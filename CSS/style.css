@@ -33,6 +33,7 @@ nav{
     height: 100%;
     position: fixed;
     background: #f3f3f3;
+    border-right: solid 1px rgb(198, 192, 192) ;
 }
 
 ul {
