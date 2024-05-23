@@ -1,10 +1,39 @@
 
 const getOptionChart1=()=>{
-
+    return {
+        xAxis: {
+          type: 'category',
+          data: ['enero', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
+        },
+        yAxis: {
+          type: 'value'
+        },
+        series: [
+          {
+            data: [150, 230, 224, 218, 135, 147, 260],
+            type: 'line'
+          }
+        ]
+      };
 };
 
 const getOptionChart2=()=>{
-    
+    return {
+        xAxis: {
+          type: 'category',
+          data: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
+        },
+        yAxis: {
+          type: 'value'
+        },
+        series: [
+          {
+            data: [820, 932, 901, 934, 1290, 1330, 1320],
+            type: 'line',
+            smooth: true
+          }
+        ]
+      };
 };
 
 const initCharts=()=>{
@@ -12,13 +41,13 @@ const initCharts=()=>{
     const chart2=echarts.init(document.getElementById("chart2"));
 
 
-    chart1.setOption();
-    chart2.setOption();
+    chart1.setOption(getOptionChart1());
+    chart2.setOption(getOptionChart2());
 
 
 ;}
 
 window.addEventListener('load', ()=> {
-    console.log("ok");
+    initCharts();
 
 });
