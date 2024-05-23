@@ -72,3 +72,19 @@ ul {
     min-height: 400px;
 }
 
+
+/*TIKES*/
+.container-input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px
+}
+
+.inpus-tikes{
+    border: solid 1px rgb(188, 179, 179);
+    border-radius: 8px;
+    width: 40%;
+    padding: 50px;
+    
+}
