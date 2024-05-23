@@ -82,9 +82,21 @@ ul {
 }
 
 .inpus-tikes{
+    background: rgba(167, 167, 230, 0.613);
     border: solid 1px rgb(188, 179, 179);
     border-radius: 8px;
     width: 40%;
     padding: 50px;
-    
+}
+
+.inpus-tikes input {
+    background: rgb(168, 163, 163);
+}
+
+.inpus-tikes select{
+    background: rgb(168, 163, 163);
+}
+
+.inpus-tikes textarea{
+    background: rgb(168, 163, 163);
 }
