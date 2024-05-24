@@ -28,9 +28,8 @@ const getOptionChart2=()=>{
         },
         series: [
           {
-            data: [820, 932, 901, 934, 1290, 1330, 1320],
-            type: 'line',
-            smooth: true
+            data: [150, 230, 224, 218, 135, 147, 260],
+            type: 'line'
           }
         ]
       };

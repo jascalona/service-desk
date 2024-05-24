@@ -73,7 +73,8 @@ ul {
 }
 
 .container .row{
-    margin-left: 80px;
+    margin-left: 120px;
+    margin-right: -100px;
 }
 
 .chart{
