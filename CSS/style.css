@@ -67,8 +67,17 @@ ul {
 
 
 /*DEV GRAFICAS*/
+
+.container{
+    padding-top: 50px;
+}
+
+.container .row{
+    margin-left: 80px;
+}
+
 .chart{
-    width: 100%;
+    width: 80%;
     min-height: 400px;
 }
 
