@@ -46,7 +46,7 @@
     <nav>
         <ul class="nav-links">
             <li><i style="color: #17BCDA;" class='bx bxs-dashboard'></i><a href="./dashboard.html">Dashboard</a></li>
-            <li><i style="color: #2F35AF;" class='bx bxs-user' ></i><a href="./user.html">Users</a></li>
+            <li><i style="color: #2F35AF;" class='bx bxs-user' ></i><a href="./user.php">Users</a></li>
             <li><i style="color: #1EE08E;" class='bx bxs-message-detail'></i><a href="">Messages</a></li>
             <li><i style="color: #f60551;" class='bx bxs-notification'></i><a href="./tikes.html">Tikes</a></li>
             <li><i style="color: #FAEF11;" class='bx bx-pulse'></i><a href="">Activity</a></li>                    
