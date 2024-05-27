@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./CSS/framework/Bootstrap.css">
     <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/user.css">
     <title>Users</title>
 
 
@@ -26,34 +27,72 @@
 <body>
 
 
-    <header>
-        <div class="logo">
-            <a href="./dashboard.html">Service D</a>
-        
-        <div class="user">
-            <div class="btn-group" role="group">
-                <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                    name
-                </button>
-                <ul class="dropdown-menu">
-                    <li><a style="font-size: 18px; background: none;" class="dropdown-item" href="">Cerrar Sesion</a></li>
+            <header>
+                <div class="logo">
+                    <a href="./dashboard.html">Service D</a>
+                </div>
+                <div class="user">
+                    <div class="btn-group" role="group">
+                        <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                            name
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a style="font-size: 18px; background: none;" class="dropdown-item" href="">Cerrar Sesion</a></li>
 
+                        </ul>
+                    </div>
+                </div>
+                </div>
+            
+            <nav>
+                <ul class="nav-links">
+                    <li><i style="color: #17BCDA;" class='bx bxs-dashboard'></i><a href="./dashboard.html">Dashboard</a></li>
+                    <li><i style="color: #2F35AF;" class='bx bxs-user' ></i><a href="./user.php">Users</a></li>
+                    <li><i style="color: #1EE08E;" class='bx bxs-message-detail'></i><a href="">Messages</a></li>
+                    <li><i style="color: #f60551;" class='bx bxs-notification'></i><a href="./tikes.html">Tikes</a></li>
+                    <li><i style="color: #FAEF11;" class='bx bx-pulse'></i><a href="">Activity</a></li>                    
+                    <li><i style="color: #A205F6;" class='bx bxs-group'></i><a href="">Directory</a></li>        
                 </ul>
-            </div>
-        </div>
-        </div>
-    
-    <nav>
-        <ul class="nav-links">
-            <li><i style="color: #17BCDA;" class='bx bxs-dashboard'></i><a href="./dashboard.html">Dashboard</a></li>
-            <li><i style="color: #2F35AF;" class='bx bxs-user' ></i><a href="./user.php">Users</a></li>
-            <li><i style="color: #1EE08E;" class='bx bxs-message-detail'></i><a href="">Messages</a></li>
-            <li><i style="color: #f60551;" class='bx bxs-notification'></i><a href="./tikes.html">Tikes</a></li>
-            <li><i style="color: #FAEF11;" class='bx bx-pulse'></i><a href="">Activity</a></li>                    
-            <li><i style="color: #A205F6;" class='bx bxs-group'></i><a href="">Directory</a></li>        
-        </ul>
-    </nav>
-</header>
+            </nav>
+        </header>
+
+
+
+
+            <table class="table">
+            <thead>
+                <tr>
+                <th scope="col">#</th>
+                <th scope="col">First</th>
+                <th scope="col">Last</th>
+                <th scope="col">Handle</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                <th scope="row">1</th>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+                </tr>
+                <tr>
+                <th scope="row">2</th>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+                </tr>
+                <tr>
+                <th scope="row">3</th>
+                <td colspan="2">Larry the Bird</td>
+                <td>@twitter</td>
+                </tr>
+            </tbody>
+            </table>
+
+
+
+
+
 
 
     
