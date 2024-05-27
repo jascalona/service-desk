@@ -31,9 +31,11 @@
                 <div class="logo">
                     <a href="./dashboard.html">Service D</a>
                 </div>
-                <div class="user">
+
+                <div  style="display: flex; justify-content: end; padding-right: 50px;" class="user">
                     <div class="btn-group" role="group">
-                        <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                        <button
+                        " type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
                             name
                         </button>
                         <ul class="dropdown-menu">
@@ -43,6 +45,8 @@
                     </div>
                 </div>
                 </div>
+                </header>
+
             
             <nav>
                 <ul class="nav-links">
@@ -54,10 +58,9 @@
                     <li><i style="color: #A205F6;" class='bx bxs-group'></i><a href="">Directory</a></li>        
                 </ul>
             </nav>
-        </header>
 
 
-
+<!--
 
 
         <table class="table">
