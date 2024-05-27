@@ -30,10 +30,10 @@
                         <h6>Inicar Sesion</h6>
                         
                         <div class="inpus">
-                            <input type="text" name="user" id="user" placeholder="Ingrese su Usuario">
+                            <input type="text" name="user" id="user" placeholder="Ingrese su Usuario" required>
                             <br>
                             <br>
-                            <input type="password" name="password" id="password" placeholder="Clave de Intranet">
+                            <input type="password" name="password" id="password" placeholder="Clave de Intranet" required>
                         </div>
                     
                         <div class="btn-l">
