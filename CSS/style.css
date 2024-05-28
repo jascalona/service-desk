@@ -119,21 +119,18 @@ ul li{
 }
 
 /*NAME_RAIZ_TITLE*/
-.raiz{
+.raiz ul{ 
     border: solid 1px #9c9696;
-    margin-left: 190px;
-}
-
-.raiz p{
-    padding: 20px;
-    font-size: 34px;
     display: flex;
     justify-content: start;
+    align-items: center;
+    margin-left: 190px;
+    padding: 20px;
+    font-size: 25px
 }
 
-.raiz p i{
-    padding-top: 8px;
-    display: flex;
-    align-items: center;
+.raiz ul li i {
+    padding-top: 7px;
 }
+
 
