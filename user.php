@@ -63,10 +63,6 @@
 
 
 
-        <?php
-        include "./Controller/conexion.php";
-        
-        ?>
 
         <div class="container-table-user">
             <table class="table">
@@ -79,7 +75,17 @@
                         <th scope="col">EMAIL</th>    
                     </tr>
                     </thead>
+
+
                     <tbody>
+
+                    <?php
+                    include "./Controller/conexion.php";
+                    $sql = $conexion->query("  SELECT *FROM t_users ");
+                    while($datos = $sql->fetch_object()) {}
+                    
+                    ?>
+
                         <tr>
                         <th scope="row">1</th>
                         <td>Mark</td>
