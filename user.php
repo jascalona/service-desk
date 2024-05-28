@@ -65,15 +65,15 @@
 
 
         <div class="container-table-user">
-            <table class="table">
+            <table class="table table-striped table-hover">
                     <thead>
                         <tr>
-                        <th scope="col">ID</th>
-                        <th scope="col">NAME</th>
-                        <th scope="col">SURNAME</th>
-                        <th scope="col">USER</th>
-                        <th scope="col">EMAIL</th>    
-                    </tr>
+                            <th scope="col">ID</th>
+                            <th scope="col">NAME</th>
+                            <th scope="col">SURNAME</th>
+                            <th scope="col">USER</th>
+                            <th scope="col">EMAIL</th>    
+                        </tr>
                     </thead>
 
 
