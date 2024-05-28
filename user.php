@@ -82,27 +82,20 @@
                     <?php
                     include "./Controller/conexion.php";
                     $sql = $conexion->query("  SELECT *FROM t_users ");
-                    while($datos = $sql->fetch_object()) {}
+                    while($datos = $sql->fetch_object()) { ?>
                     
-                    ?>
-
                         <tr>
-                        <th scope="row">1</th>
-                        <td>Mark</td>
-                        <td>Otto</td>
-                        <td>@mdo</td>
+                              <td><?= $datos->ID?></td>
+                              <td><?= $datos->NAME?></td>
+                              <td><?= $datos->SURNAME?></td>
+                              <td><?= $datos->USER?></td>
+                              <td><?= $datos->EMAIL?></td>
                         </tr>
-                        <tr>
-                        <th scope="row">2</th>
-                        <td>Jacob</td>
-                        <td>Thornton</td>
-                        <td>@fat</td>
-                        </tr>
-                        <tr>
-                        <th scope="row">3</th>
-                        <td colspan="2">Larry the Bird</td>
-                        <td>@twitter</td>
-                        </tr>
+                        
+                        <?php
+                        }
+                        ?>
+                       
                     </tbody>
                     </table>
 
