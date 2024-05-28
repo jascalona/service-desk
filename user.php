@@ -63,6 +63,11 @@
 
 
 
+        <?php
+        include "./Controller/conexion.php";
+        
+        ?>
+
         <div class="container-table-user">
             <table class="table">
                     <thead>
