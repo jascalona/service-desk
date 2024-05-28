@@ -45,6 +45,11 @@ ul {
     margin-top: 60px;
 }
 
+ul li{
+    display: flex;
+    align-items: center;
+}
+
 .nav-links li a  {
     font-size: 20px;
     text-decoration: none;
@@ -116,4 +121,18 @@ ul {
 /*NAME_RAIZ_TITLE*/
 .raiz{
     border: solid 1px #9c9696;
+    margin-left: 190px;
 }
+
+.raiz p{
+    padding: 20px;
+    font-size: 34px;
+    display: flex;
+    justify-content: start;
+}
+
+.raiz p i{
+    display: flex;
+    align-items: center;
+}
+
