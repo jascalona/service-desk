@@ -119,6 +119,10 @@ ul li{
 }
 
 /*NAME_RAIZ_TITLE*/
+.raiz{
+    background: rgb(223, 227, 228);
+}
+
 .raiz ul{ 
     border: solid 1px #9c9696;
     display: flex;
@@ -126,11 +130,15 @@ ul li{
     align-items: center;
     margin-left: 190px;
     padding: 20px;
-    font-size: 25px
+    font-size: 25px;
 }
 
 .raiz ul li i {
     padding-top: 7px;
+}
+
+.raiz ul li a {
+    text-decoration: none;
 }
 
 
