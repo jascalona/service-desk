@@ -112,3 +112,8 @@ ul {
 .inpus-tikes textarea{
     background: rgb(168, 163, 163);
 }
+
+/*NAME_RAIZ_TITLE*/
+.raiz{
+    border: solid 1px #9c9696;
+}
