@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./CSS/framework/Bootstrap.css">
     <link rel="stylesheet" href="./CSS/style.css">
-    <link rel="stylesheet" href="./CSS/tables.css">
+    <link rel="stylesheet" href="./CSS/table.css">
     <title>Users</title>
 
 

@@ -1,0 +1,10 @@
+.container-table-user{
+    margin-top: 20%;
+    margin-left: 250px;
+    margin-right: 90px;
+}
+
+/*style_table*/
+table{
+    border: solid 1px;
+}
